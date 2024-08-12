@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/imageSearchFragment">
+
+    <fragment
+        android:id="@+id/imageSearchFragment"
+        android:name="com.chanhue.nbk_assignment.ImageSearchFragment"
+        android:label="Image Search"
+        tools:layout="@layout/fragment_image_search" />
+
+    <fragment
+        android:id="@+id/myCollectionFragment"
+        android:name="com.chanhue.nbk_assignment.MyCollectionFragment"
+        android:label="My Collection"
+        tools:layout="@layout/fragment_my_collection" />
+</navigation>
